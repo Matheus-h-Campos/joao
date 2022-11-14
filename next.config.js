@@ -2,6 +2,14 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
+  remotePatterns: [
+    {
+      protocol: 'https',
+      hostname: '**.unsplash.com',
+      port: '',
+      pathname: '/**',
+    },
+  ],
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
