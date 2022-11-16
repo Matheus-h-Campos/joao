@@ -9,3 +9,44 @@ html {
 .custom-img {
   background-image: url('/cover.jpg');
 }
+
+.bg-1 {
+  background-image: url('/lp/zero-ao-pull-up/bg1.jpg');
+}
+.bg-2 {
+  background-image: url('/lp/zero-ao-pull-up/bg2.jpg');
+}
+.bg-3 {
+  background-image: url('/lp/zero-ao-pull-up/foto1.jpg');
+}
+.bg-4 {
+  background-image: url('/lp/zero-ao-pull-up/bg4.jpg');
+}
+.bg-5 {
+  background-image: url('/lp/zero-ao-pull-up/bg5.jpg');
+}
+
+@layer components {
+  .group-date {
+    @apply text-4xl 
+    px-3 py-4
+    font-bold tracking-widest;
+  }
+  .timeline {
+    @apply border-l-8 border-gray-200
+    ml-3 mt-3 pt-16
+    space-y-14;
+  }
+  .dot {
+    @apply absolute top-5 -left-3.5
+    bg-red-500
+    h-6 w-6
+    rounded-full
+    border-4 border-[#131313];
+  }
+
+  .timeline-title {
+    @apply text-3xl  font-semibold
+    tracking-widest mb-2;
+  }
+}

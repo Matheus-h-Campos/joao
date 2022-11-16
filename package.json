@@ -19,6 +19,7 @@
     "eslint-config-next": "13.0.2",
     "flowbite": "^1.5.3",
     "flowbite-react": "^0.3.4",
+    "framer-motion": "^7.6.7",
     "kutty": "^0.6.0",
     "markdown-it": "^13.0.1",
     "next": "13.0.2",
