@@ -66,7 +66,7 @@ export default function Section_5({}: Props) {
 
         <div className="mt-12 text-center">
           <Link
-            href="#"
+            href="https://sun.eduzz.com/1681038"
             className="mt-8 inline-flex items-center rounded-full border border-white  bg-red-600 px-16 py-3 text-white hover:bg-transparent focus:outline-none focus:ring active:text-red-500 "
           >
             <span className="text-xl font-bold"> QUERO COMEÇAR AGORA </span>
