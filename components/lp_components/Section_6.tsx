@@ -4,7 +4,7 @@ type Props = {};
 
 export default function Section_6({}: Props) {
   return (
-    <section className="max-w-7xl min-h-screen  items-center justify-start py-32">
+    <section className="max-w-screen min-h-screen  items-center justify-start py-32 text-white">
       <h2 className="text-3xl font-bold sm:text-4xl mx-auto max-w-lg py-12 text-center">
         Veja o que meus alunos falam sobre mim <br />
         {'>>'}
