@@ -10,6 +10,14 @@ import Section_4 from '../components/Section_4';
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Coach João André</title>
+        <meta
+          name="facebook-domain-verification"
+          content="y40iu433capigubaeg6yvq4deubrlw"
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <main className="bg-gray-900">
         <Hero />
         <Section_1 />
