@@ -57,6 +57,7 @@ export default function zeroAoPullUp({}: Props) {
       </noscript> */}
 
       <main className=" text-white bg-[#131313] px-8">
+        <FacebookPixel />
         <Hero />
         <Section_1 />
         <Section_2 />
