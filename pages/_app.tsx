@@ -17,16 +17,19 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
       <FacebookPixel />
       <Component {...pageProps} />
+
       <CookieConsent
         buttonText="Estou ciente"
         cookieName="myAwesomeCookieName2"
         style={{
           background: '#1f1f1f',
+          padding: '5px',
         }}
         buttonStyle={{
           background: '#ff3333',
           color: 'white',
           fontWeight: 'bolder',
+          borderRadius: '5px',
         }}
       >
         Este site utiliza cookies para melhorar a experiencia do usuário
