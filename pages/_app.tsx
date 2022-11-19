@@ -21,6 +21,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <CookieConsent
         buttonText="Estou ciente"
         cookieName="myAwesomeCookieName2"
+        expires={365}
         style={{
           background: '#1f1f1f',
           padding: '5px',
