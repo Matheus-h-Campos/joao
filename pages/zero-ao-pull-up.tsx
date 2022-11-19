@@ -18,7 +18,7 @@ export default function zeroAoPullUp({}: Props) {
       import('react-facebook-pixel')
         .then((x) => x.default)
         .then((ReactPixel) => {
-          ReactPixel.init('pixel ID here');
+          ReactPixel.init('877400983486159');
           ReactPixel.pageView();
 
           Router.events.on('routeChangeComplete', () => {
