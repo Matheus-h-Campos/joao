@@ -35,7 +35,7 @@ export default function zeroAoPullUp({}: Props) {
         <img
           height="1"
           width="1"
-          style="display:none"
+          className="display-none"
           src="https://www.facebook.com/tr?id=877400983486159&ev=PageView&noscript=1"
         />
       </noscript>
