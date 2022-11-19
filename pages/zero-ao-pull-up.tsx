@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Script from 'next/script';
 import React from 'react';
+import { Router } from 'next/router';
 import Hero from '../components/lp_components/Hero';
 import Section_1 from '../components/lp_components/Section_1';
 import Section_2 from '../components/lp_components/Section_2';
@@ -12,9 +13,24 @@ import Section_6 from '../components/lp_components/Section_6';
 type Props = {};
 
 export default function zeroAoPullUp({}: Props) {
+  function FacebookPixel() {
+    React.useEffect(() => {
+      import('react-facebook-pixel')
+        .then((x) => x.default)
+        .then((ReactPixel) => {
+          ReactPixel.init('877400983486159');
+          ReactPixel.pageView();
+
+          Router.events.on('routeChangeComplete', () => {
+            ReactPixel.pageView();
+          });
+        });
+    });
+    return null;
+  }
   return (
     <>
-      <Script
+      {/* <Script
         id="show-banner"
         dangerouslySetInnerHTML={{
           __html: `
@@ -38,7 +54,7 @@ export default function zeroAoPullUp({}: Props) {
           className="display-none"
           src="https://www.facebook.com/tr?id=877400983486159&ev=PageView&noscript=1"
         />
-      </noscript>
+      </noscript> */}
 
       <main className=" text-white bg-[#131313] px-8">
         <Hero />
