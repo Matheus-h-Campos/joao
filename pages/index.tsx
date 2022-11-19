@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Coach João André</title>
+        <title>Professor João André</title>
         <meta
           name="facebook-domain-verification"
           content="y40iu433capigubaeg6yvq4deubrlw"
