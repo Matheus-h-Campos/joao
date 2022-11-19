@@ -1,6 +1,7 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
+import CookieConsent from 'react-cookie-consent';
 import { FacebookPixel } from '../utils/facebookPixel';
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -16,6 +17,20 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
       <FacebookPixel />
       <Component {...pageProps} />
+      <CookieConsent
+        buttonText="Estou ciente"
+        cookieName="myAwesomeCookieName2"
+        style={{
+          background: '#1f1f1f',
+        }}
+        buttonStyle={{
+          background: '#ff3333',
+          color: 'white',
+          fontWeight: 'bolder',
+        }}
+      >
+        Este site utiliza cookies para melhorar a experiencia do usuário
+      </CookieConsent>
     </>
   );
 }
