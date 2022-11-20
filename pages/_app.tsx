@@ -5,27 +5,27 @@ import CookieConsent from 'react-cookie-consent';
 import { FacebookPixel } from '../utils/facebookPixel';
 import TagManager, { TagManagerArgs } from 'react-gtm-module';
 import { useEffect } from 'react';
-// import Script from 'next/script';
+import Script from 'next/script';
 
 export default function App({ Component, pageProps }: AppProps) {
   const gtmId = process.env.NEXT_PUBLIC_GTM_ID || '';
-  const tagManagerArgs: TagManagerArgs = {
-    gtmId,
-  };
+  // const tagManagerArgs: TagManagerArgs = {
+  //   gtmId,
+  // };
 
-  useEffect(() => {
-    TagManager.initialize(tagManagerArgs);
-  }, []);
+  // useEffect(() => {
+  //   TagManager.initialize(tagManagerArgs);
+  // }, []);
 
   return (
     <>
-      {/* <Script id="gtm" strategy="afterInteractive">
+      <Script id="gtm" strategy="afterInteractive">
         {`
           (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
           j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-          })(window,document,'script','dataLayer','GTM-WZLGR5K');
+          })(window,document,'script','dataLayer','${gtmId}');
         `}
       </Script>
       <noscript>
@@ -35,7 +35,7 @@ export default function App({ Component, pageProps }: AppProps) {
           width="0"
           className="hidden"
         ></iframe>
-      </noscript> */}
+      </noscript>
       <Head>
         <title>Professor João André</title>
         <meta
@@ -44,7 +44,6 @@ export default function App({ Component, pageProps }: AppProps) {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <FacebookPixel />
       <Component {...pageProps} />
 
       <CookieConsent
