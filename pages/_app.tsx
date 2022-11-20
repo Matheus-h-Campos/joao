@@ -3,11 +3,14 @@ import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import CookieConsent from 'react-cookie-consent';
 import { FacebookPixel } from '../utils/facebookPixel';
+import Script from 'next/script';
+import TagManager from '../utils/TagManager';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
+        <TagManager />
         <title>Professor João André</title>
         <meta
           name="facebook-domain-verification"
