@@ -6,26 +6,10 @@ import Section_3 from '../components/lp_components/Section_3';
 import Section_4 from '../components/lp_components/Section_4';
 import Section_5 from '../components/lp_components/Section_5';
 import Section_6 from '../components/lp_components/Section_6';
-// import { FacebookPixel } from '../utils/facebookPixel';
 
 type Props = {};
 
 export default function zeroAoPullUp({}: Props) {
-  // function FacebookPixel() {
-  //   React.useEffect(() => {
-  //     import('react-facebook-pixel')
-  //       .then((x) => x.default)
-  //       .then((ReactPixel) => {
-  //         ReactPixel.init('877400983486159');
-  //         ReactPixel.pageView();
-
-  //         Router.events.on('routeChangeComplete', () => {
-  //           ReactPixel.pageView();
-  //         });
-  //       });
-  //   });
-  //   return null;
-  // }
   return (
     <>
       <main className=" text-white bg-[#131313] px-8">

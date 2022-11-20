@@ -2,6 +2,7 @@ import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import Script from 'next/script';
+import { FacebookPixel } from '../utils/facebookPixel';
 
 export default function App({ Component, pageProps }: AppProps) {
   const gtmId = process.env.NEXT_PUBLIC_GTM_ID || '';
@@ -25,6 +26,7 @@ export default function App({ Component, pageProps }: AppProps) {
           className="hidden"
         ></iframe>
       </noscript>
+      <FacebookPixel />
       <Head>
         <title>Professor João André</title>
         <meta
