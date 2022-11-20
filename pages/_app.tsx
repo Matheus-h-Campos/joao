@@ -1,21 +1,10 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
-import CookieConsent from 'react-cookie-consent';
-import { FacebookPixel } from '../utils/facebookPixel';
-import TagManager, { TagManagerArgs } from 'react-gtm-module';
-import { useEffect } from 'react';
 import Script from 'next/script';
 
 export default function App({ Component, pageProps }: AppProps) {
   const gtmId = process.env.NEXT_PUBLIC_GTM_ID || '';
-  // const tagManagerArgs: TagManagerArgs = {
-  //   gtmId,
-  // };
-
-  // useEffect(() => {
-  //   TagManager.initialize(tagManagerArgs);
-  // }, []);
 
   return (
     <>
@@ -45,24 +34,6 @@ export default function App({ Component, pageProps }: AppProps) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Component {...pageProps} />
-
-      <CookieConsent
-        buttonText="Estou ciente"
-        cookieName="myAwesomeCookieName2"
-        expires={365}
-        style={{
-          background: '#1f1f1f',
-          padding: '5px',
-        }}
-        buttonStyle={{
-          background: '#ff3333',
-          color: 'white',
-          fontWeight: 'bolder',
-          borderRadius: '5px',
-        }}
-      >
-        Este site utiliza cookies para melhorar a experiencia do usuário
-      </CookieConsent>
     </>
   );
 }
