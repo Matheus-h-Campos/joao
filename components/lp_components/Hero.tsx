@@ -8,7 +8,7 @@ export default function Hero({}: Props) {
       <div className="mx-auto text-center">
         <h1 className="mb-6 text-4xl font-extrabold leading-none tracking-normal md:text-6xl md:tracking-tight">
           O SEGREDO para destravar o{' '}
-          <span className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-900 to-red-500">
+          <span className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-900 to-red-500 shadow">
             PULL UP
           </span>{' '}
           é esse aqui…
