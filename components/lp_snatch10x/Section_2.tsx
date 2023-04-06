@@ -13,7 +13,7 @@ export default function Section_1({}: Props) {
                 O que você vai aprender?
               </h2>
 
-              <div className="grid lg:gap-x-12 lg:grid-cols-2 text-neutral-900">
+              <div className="grid lg:gap-x-12 lg:grid-cols-2 text-neutral-900 text-left">
                 <div className="mb-12 lg:mb-0">
                   <div className="rounded-lg shadow-lg h-full block bg-white">
                     <div className="flex justify-center">
@@ -23,10 +23,16 @@ export default function Section_1({}: Props) {
                     </div>
                     <div className="p-10 text-lg">
                       <p>
-                        Laudantium totam quas cumque pariatur at doloremque hic
-                        quos quia eius. Reiciendis optio minus mollitia rerum
-                        labore facilis inventore voluptatem ad, quae quia sint.
-                        Ullam.
+                        Em um dia vou te passar tudo que estudei ao longo de
+                        anos, centenas de horas de cursos com profissionais de
+                        renome internacional. Tudo isso condensado para você!
+                        <br />
+                        <br />
+                        Todos meus métodos e dinâmicas de treinamento que me
+                        ajudaram a chegar em altos níveis de excelência como
+                        atleta e treinador, de forma única e de um jeito que
+                        você nunca viu! Vou compartilhar com você princípios da
+                        Técnica e todos os segredos que facilitam o movimento…
                       </p>
                     </div>
                   </div>
@@ -41,9 +47,21 @@ export default function Section_1({}: Props) {
                     </div>
                     <div className="p-10 text-lg">
                       <p>
-                        Eum nostrum fugit numquam, voluptates veniam neque
-                        quibusdam ullam aspernatur odio soluta, quisquam dolore
-                        animi mollitia a omnis praesentium, expedita nobis!
+                        Uma progressão técnica e didática que vai te ajudar
+                        passo a passo a aprender e entender cada fase e
+                        seguimento do snatch. Visando otimizar todos os pontos
+                        possíveis.
+                        <br />
+                        <br />
+                        Vou estar la para te acompanhar lado a lado, corrigindo
+                        cada detalhe e fornecendo feedbacks indivíduais para sua
+                        evolução.
+                        <br />
+                        <br />
+                        Mais do que te ensinar, vou te mostrar o caminho das
+                        pedras e lhe demonstrar como continuar a evoluir
+                        constantemente, com técnicas secretas que você vai
+                        incorporar na sua rotina de treinos facilmente.
                       </p>
                     </div>
                   </div>

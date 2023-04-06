@@ -15,7 +15,7 @@ export default function Section_4({}: Props) {
                 {'>>'}
               </h2>
 
-              <div className="flex overflow-x-auto">
+              <div className="flex overflow-x-auto ">
                 <img
                   className="max-h-[80vh] pointer-events-none "
                   src="/lp/zero-ao-pull-up/testemunhos/t1.png"

@@ -16,8 +16,8 @@ export default function Hero({}: Props) {
                   <span className="text-yellow-400">Workshop Snatch 10X</span>
                 </h1>
                 <p className="text-lg mt-6 mb-12">
-                  Aprenda como melhorar seu movimento, seja um profissional no
-                  snatch e domine o movimento mais sexy do CrossFit!
+                  Aprenda como melhorar seu snatch e domine a excelência do
+                  movimento mais sexy do CrossFit!
                 </p>
                 <a
                   className="inline-block px-7 py-3 mr-2 bg-yellow-400 text-black font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-yellow-500 hover:shadow-lg focus:bg-yellow-500 focus:shadow-lg focus:outline-none focus:ring-0 active:yellow-700 active:shadow-lg transition duration-150 ease-in-out"

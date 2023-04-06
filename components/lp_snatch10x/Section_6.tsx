@@ -4,7 +4,7 @@ type Props = {};
 
 export default function Section_6({}: Props) {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-white mt-[-1px]">
       <div className="px-6 md:px-12">
         <div className="container mx-auto xl:px-32">
           <h2 className="text-5xl font-bold mb-12 text-center ">
