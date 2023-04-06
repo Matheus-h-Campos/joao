@@ -17,10 +17,12 @@ export default function Hero({}: Props) {
               PERSONAL COACHING{' '}
             </span>
           </h1>
-
+          <p className="text-white text-lg mt-8 mb-4">
+            Clique aqui e me diga como posso te ajudar
+          </p>
           <Link
-            className="inline-block rounded-xl mt-8 px-12 py-3 text-white text-sm font-bold shadow-lg shadow-red-500/30 bg-red-500 hover:scale-110 transition ease-in-out"
-            href="https://calendly.com/joaoandre/consultoria-personalizada"
+            className="inline-block rounded-xl  px-12 py-3 text-white text-sm font-bold shadow-lg shadow-red-500/30 bg-red-500 hover:scale-110 transition ease-in-out"
+            href="https://wa.me/5511971084479"
           >
             COMEÇAR AGORA
           </Link>

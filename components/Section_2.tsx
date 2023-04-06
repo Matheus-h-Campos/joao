@@ -13,7 +13,7 @@ export default function Section_2({}: Props) {
 
         <Link
           className="inline-block rounded-xl mt-8 px-12 py-3 text-white text-sm font-bold shadow-lg shadow-red-500/30 bg-red-500 hover:scale-110 transition ease-in-out"
-          href="https://calendly.com/joaoandre/consultoria-personalizada"
+          href="https://wa.me/5511971084479"
         >
           COMEÇAR AGORA
         </Link>

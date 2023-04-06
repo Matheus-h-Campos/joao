@@ -18,7 +18,7 @@ export default function Footer({}: Props) {
 
           <Link
             className="mt-8 inline-block rounded-full border border-white/25 px-12 py-3 text-sm font-medium hover:bg-white hover:text-red-500"
-            href="https://calendly.com/joaoandre/consultoria-personalizada"
+            href="https://wa.me/5511971084479"
           >
             COMECE AGORA
           </Link>
