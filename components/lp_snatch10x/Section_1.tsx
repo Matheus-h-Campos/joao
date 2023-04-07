@@ -8,20 +8,24 @@ export default function Section_1({}: Props) {
       <section className="py-20">
         <div className="px-6 md:px-12  text-white text-center lg:text-left">
           <div className="container mx-auto xl:px-32">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div className="">
-                <img
-                  src="https://mdbootstrap.com/img/new/ecommerce/vertical/028.jpg"
-                  className="w-full rounded-lg shadow-lg"
-                  alt=""
-                />
+            <div className="flex flex-col-reverse lg:flex-row gap-12 items-center">
+              <div className="flex-1">
+                <div className="grid">
+                  <div className="w-[150%] mr-10 lg:mr-0 lg:w-[200%] place-self-center">
+                    <img
+                      alt="hero"
+                      src="/lp/snatch10x/section2.webp"
+                      className=""
+                    />
+                  </div>
+                </div>
               </div>
-              <div className="">
+              <div className="flex-1">
                 <h2 className="text-5xl font-bold tracking-tight text-yellow-400">
                   Motivos do por que você deve ter um bom snatch
                 </h2>
 
-                <div className="mt-6 text-lg text-left">
+                <div className="mt-6 text-lg text-left bg-black/80 px-4 -mx-4 rounded-2xl">
                   <ul className="w-full">
                     <li className="w-full border-b-2 border-yellow-400 border-opacity-100 py-4 dark:border-opacity-50">
                       Para melhorar seu desempenho e explosão, o snatch é o

@@ -12,11 +12,30 @@ export default function Section_6({}: Props) {
             <span className="text-red-600">Lotes limitados!</span>
           </h2>
 
-          <div className="grid lg:grid-cols-4 gap-x-6 lg:gap-x-12 text-center ">
-            <div>lote promocional</div>
-            <div>lote 1</div>
-            <div>lote 2</div>
-            <div>lote 3</div>
+          <div className="flex flex-col lg:flex-row lg:flex-wrap gap-6 justify-center">
+            <img
+              alt=""
+              src="/lp/snatch10x/Lotepromocional.webp"
+              className="rounded-2xl shadow-xl mg-0 flex-initial"
+            />
+
+            <img
+              alt=""
+              src="/lp/snatch10x/Lote1.webp"
+              className="rounded-2xl shadow-xl flex-initial"
+            />
+
+            <img
+              alt=""
+              src="/lp/snatch10x/Lote2webp.webp"
+              className="rounded-2xl shadow-xl flex-initial"
+            />
+
+            <img
+              alt=""
+              src="/lp/snatch10x/Lote3webp.webp"
+              className="rounded-2xl shadow-xl flex-initial"
+            />
           </div>
         </div>
       </div>

@@ -12,7 +12,7 @@ type Props = {};
 export default function snatch10x({}: Props) {
   return (
     <>
-      <main className="bg-black">
+      <main className="bg-black overflow-hidden">
         <Hero />
         <Section_1 />
         <Section_2 />

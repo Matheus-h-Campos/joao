@@ -8,8 +8,8 @@ export default function Hero({}: Props) {
       <section className="py-20">
         <div className="px-6 md:px-12 text-white text-center lg:text-left">
           <div className="container mx-auto xl:px-32">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
-              <div className="mt-12 lg:mt-0">
+            <div className="flex flex-col lg:flex-row gap-12 items-center">
+              <div className="flex-1 mt-12 lg:mt-0 z-10">
                 <h1 className="text-5xl md:text-5xl xl:text-5xl font-bold tracking-tight ">
                   Faça Snatch como um Elite
                   <br />
@@ -29,12 +29,16 @@ export default function Hero({}: Props) {
                   Quero me inscrever
                 </a>
               </div>
-              <div className=" lg:mb-0">
-                <img
-                  src="https://mdbootstrap.com/img/new/ecommerce/vertical/028.jpg"
-                  className="w-full rounded-lg shadow-lg"
-                  alt=""
-                />
+              <div className="flex-1">
+                <div className="grid">
+                  <div className="w-[150%] ml-10 lg:ml-0 lg:w-[200%] place-self-center">
+                    <img
+                      alt="hero"
+                      src="/lp/snatch10x/hero.webp"
+                      className=""
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
