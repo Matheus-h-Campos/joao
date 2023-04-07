@@ -22,7 +22,7 @@ export default function Section_1({}: Props) {
               </div>
               <div className="flex-1">
                 <h2 className="text-5xl font-bold tracking-tight text-yellow-400">
-                  Motivos do por que você deve ter um bom snatch
+                  Motivos do porquê você deve ter um bom snatch
                 </h2>
 
                 <div className="mt-6 text-lg text-left bg-black/80 px-4 -mx-4 rounded-2xl">
