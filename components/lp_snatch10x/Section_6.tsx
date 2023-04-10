@@ -38,6 +38,15 @@ export default function Section_6({}: Props) {
             />
           </div>
         </div>
+        <a
+          className="flex py-4 bg-yellow-400 text-black font-medium text-lg leading-snug uppercase rounded-full shadow-md hover:bg-yellow-500 hover:shadow-lg focus:bg-yellow-500 focus:shadow-lg focus:outline-none focus:ring-0 active:yellow-700 active:shadow-lg transition duration-150 ease-in-out w-full lg:w-1/2 justify-center mt-10 mx-auto"
+          data-mdb-ripple="true"
+          data-mdb-ripple-color="light"
+          href="https://evento.blinket.com.br/snatch-10x"
+          role="button"
+        >
+          Quero me inscrever
+        </a>
       </div>
     </section>
   );

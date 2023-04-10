@@ -23,7 +23,7 @@ export default function Hero({}: Props) {
                   className="inline-block px-7 py-3 mr-2 bg-yellow-400 text-black font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-yellow-500 hover:shadow-lg focus:bg-yellow-500 focus:shadow-lg focus:outline-none focus:ring-0 active:yellow-700 active:shadow-lg transition duration-150 ease-in-out"
                   data-mdb-ripple="true"
                   data-mdb-ripple-color="light"
-                  href="https://wa.me/5511971084479"
+                  href="https://evento.blinket.com.br/snatch-10x"
                   role="button"
                 >
                   Quero me inscrever
