@@ -14,7 +14,7 @@ export default function Section_5({}: Props) {
               className="aspect-square  rounded-xl  object-cover"
             />
             <div className="text-left text-lg">
-              <h2 className="text-5xl font-bold lg:text-left  text-center mb-10">
+              <h2 className="text-4xl md:text-5xl font-bold lg:text-left  text-center mb-10">
                 Quem é João André?
               </h2>
               <p className="">

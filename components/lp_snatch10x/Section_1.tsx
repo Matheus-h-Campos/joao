@@ -11,7 +11,8 @@ export default function Section_1({}: Props) {
             <div className="flex flex-col-reverse lg:flex-row gap-12 items-center">
               <div className="flex-1">
                 <div className="grid">
-                  <div className="w-[150%] mr-10 lg:mr-0 lg:w-[200%] place-self-center">
+                  <div className="w-[150%] mr-10 lg:mr-0 lg:w-[200%] place-self-center relative">
+                    <div className="absolute  top-0 left-0 right-0 bottom-0 bg-gradient-to-b from-black/0  to-black" />
                     <img
                       alt="hero"
                       src="/lp/snatch10x/section2.webp"
@@ -20,8 +21,8 @@ export default function Section_1({}: Props) {
                   </div>
                 </div>
               </div>
-              <div className="flex-1">
-                <h2 className="text-5xl font-bold tracking-tight text-yellow-400">
+              <div className="flex-1 z-10">
+                <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-yellow-400">
                   Motivos do porquê você deve ter um bom snatch
                 </h2>
 

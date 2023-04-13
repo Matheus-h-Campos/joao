@@ -10,7 +10,7 @@ export default function Hero({}: Props) {
           <div className="container mx-auto xl:px-32">
             <div className="flex flex-col lg:flex-row gap-12 items-center">
               <div className="flex-1 mt-12 lg:mt-0 z-10">
-                <h1 className="text-5xl md:text-5xl xl:text-5xl font-bold tracking-tight ">
+                <h1 className="text-4xl md:text-5xl font-bold tracking-tight ">
                   Faça Snatch como um Elite
                   <br />
                   <span className="text-yellow-400">Workshop Snatch 10X</span>

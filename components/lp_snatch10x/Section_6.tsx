@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 
 type Props = {};
@@ -7,30 +8,37 @@ export default function Section_6({}: Props) {
     <section className="py-20 bg-white mt-[-1px]">
       <div className="px-6 md:px-12">
         <div className="container mx-auto xl:px-32">
-          <h2 className="text-5xl font-bold mb-12 text-center ">
+          <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center ">
             Não perca sua vaga <br />{' '}
             <span className="text-red-600">Lotes limitados!</span>
           </h2>
 
-          <div className="flex flex-col lg:flex-row lg:flex-wrap gap-6 justify-center">
-            <div className="relative">
+          <div className="flex flex-col lg:flex-row lg:flex-wrap gap-8 justify-center">
+            <div className="relative flex-initial">
+              <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/90 rounded-2xl" />
+              <span className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-red-600 font-black text-3xl">
+                ESGOTADO!!
+              </span>
+              <img
+                alt=""
+                src="/lp/snatch10x/Lotepromocional.webp"
+                className="w-full  rounded-2xl shadow-xl"
+              />
+            </div>
+            <div className="relative flex-initial">
               {/* <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/90 rounded-2xl" />
               <span className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-red-600 font-black text-3xl">
                 ESGOTADO!!
               </span> */}
-
+              <div className="absolute -top-8 w-full text-center text-lg text-red-600 font-bold">
+                Aberto antecipadamente
+              </div>
               <img
                 alt=""
-                src="/lp/snatch10x/Lotepromocional.webp"
-                className="rounded-2xl shadow-xl mg-0 flex-initial"
+                src="/lp/snatch10x/Lote1.webp"
+                className="w-full  rounded-2xl shadow-xl"
               />
             </div>
-
-            <img
-              alt=""
-              src="/lp/snatch10x/Lote1.webp"
-              className="rounded-2xl shadow-xl flex-initial"
-            />
 
             <img
               alt=""

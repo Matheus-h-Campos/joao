@@ -9,7 +9,7 @@ export default function Section_1({}: Props) {
         <div className="px-6 md:px-12 text-center lg:text-left">
           <div className="container mx-auto xl:px-32">
             <div className="text-white text-center">
-              <h2 className="text-5xl font-bold mb-20 text-white">
+              <h2 className="text-4xl md:text-5xl font-bold mb-20 text-white">
                 O que você vai aprender?
               </h2>
 

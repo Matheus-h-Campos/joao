@@ -10,7 +10,7 @@ export default function Section_8({}: Props) {
           <div className="container mx-auto xl:px-32">
             <div className="flex flex-col gap-12 items-center">
               <div className="flex-1 mt-12 lg:mt-0 z-10">
-                <h2 className="text-5xl md:text-5xl xl:text-5xl font-bold tracking-tight ">
+                <h2 className="text-4xl md:text-5xl font-bold tracking-tight ">
                   Sobre a Segunda Edição
                 </h2>
               </div>

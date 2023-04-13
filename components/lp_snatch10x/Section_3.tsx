@@ -10,7 +10,7 @@ export default function Section_3({}: Props) {
           <div className="container mx-auto xl:px-32">
             <div className=" text-gray-white">
               <div className="grow-0 shrink-0 basis-auto w-full mb-6 md:mb-0 px-3">
-                <h2 className="text-5xl font-bold mb-10 ">
+                <h2 className="text-4xl md:text-5xl font-bold mb-10 ">
                   Como vai funcionar?
                 </h2>
               </div>
