@@ -13,11 +13,18 @@ export default function Section_6({}: Props) {
           </h2>
 
           <div className="flex flex-col lg:flex-row lg:flex-wrap gap-6 justify-center">
-            <img
-              alt=""
-              src="/lp/snatch10x/Lotepromocional.webp"
-              className="rounded-2xl shadow-xl mg-0 flex-initial"
-            />
+            <div className="relative">
+              {/* <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/90 rounded-2xl" />
+              <span className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-red-600 font-black text-3xl">
+                ESGOTADO!!
+              </span> */}
+
+              <img
+                alt=""
+                src="/lp/snatch10x/Lotepromocional.webp"
+                className="rounded-2xl shadow-xl mg-0 flex-initial"
+              />
+            </div>
 
             <img
               alt=""
