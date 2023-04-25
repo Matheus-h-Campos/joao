@@ -14,7 +14,7 @@ export default function Section_6({}: Props) {
           </h2>
 
           <div className="flex flex-col lg:flex-row lg:flex-wrap gap-8 justify-center">
-            <div className="relative flex-initial">
+            <div className="relative flex-initial  mb-6 md:mb-0">
               <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/90 rounded-2xl" />
               <span className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-red-600 font-black text-3xl">
                 ESGOTADO!!
@@ -25,7 +25,7 @@ export default function Section_6({}: Props) {
                 className="w-full  rounded-2xl shadow-xl"
               />
             </div>
-            <div className="relative flex-initial">
+            <div className="relative flex-initial  mb-6 md:mb-0">
               {/* <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/90 rounded-2xl" />
               <span className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-red-600 font-black text-3xl">
                 ESGOTADO!!
@@ -39,14 +39,14 @@ export default function Section_6({}: Props) {
                 className="w-full  rounded-2xl shadow-xl"
               />
             </div>
-            <div className="relative flex-initial">
+            <div className="relative flex-initial  mb-6 md:mb-0">
               <div className="absolute -top-8 w-full text-center text-lg text-red-600 font-bold">
                 ⬇ Abertura em 28/04! ⬇
               </div>
               <img
                 alt=""
                 src="/lp/snatch10x/Lote2webp.webp"
-                className="rounded-2xl shadow-xl flex-initial"
+                className="w-full rounded-2xl shadow-xl"
               />
             </div>
 
