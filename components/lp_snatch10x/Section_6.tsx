@@ -31,7 +31,7 @@ export default function Section_6({}: Props) {
                 ESGOTADO!!
               </span> */}
               <div className="absolute -top-8 w-full text-center text-lg text-red-600 font-bold">
-                Aberto antecipadamente
+                ⬇ Aberto até 27/04! ⬇
               </div>
               <img
                 alt=""
@@ -39,12 +39,16 @@ export default function Section_6({}: Props) {
                 className="w-full  rounded-2xl shadow-xl"
               />
             </div>
-
-            <img
-              alt=""
-              src="/lp/snatch10x/Lote2webp.webp"
-              className="rounded-2xl shadow-xl flex-initial"
-            />
+            <div className="relative flex-initial">
+              <div className="absolute -top-8 w-full text-center text-lg text-red-600 font-bold">
+                ⬇ Abertura em 28/04! ⬇
+              </div>
+              <img
+                alt=""
+                src="/lp/snatch10x/Lote2webp.webp"
+                className="rounded-2xl shadow-xl flex-initial"
+              />
+            </div>
 
             <img
               alt=""
